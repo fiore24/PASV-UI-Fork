@@ -31,6 +31,7 @@ class LoginPage extends AppPage {
     this.passwordInput.setValue(role.password);
     this.submitBtn.click();
     browser.pause(2000);
+
   }
 
   open() {
